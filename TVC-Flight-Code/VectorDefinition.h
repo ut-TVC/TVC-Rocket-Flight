@@ -1,7 +1,7 @@
 /*
- * Vector definitions
+ * Vector definitions (벡터 정의)
  * 
- * Standard maths definitions
+ * Standard maths definitions (표준 수학 정의)
  */
 
 struct Vector3 {

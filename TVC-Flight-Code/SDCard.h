@@ -1,7 +1,9 @@
 /*
  * SD-Card
+ * SD 카드 관련 코드 입니다.
  * 
  * During the ascent and descent states important flight data is saved on the SD-Card
+ * 상승 ~ 항강 상태에서 중요한 비행 데이터들을 SD 카드에 기록합니다.
  */
 
 #include <SD.h>
