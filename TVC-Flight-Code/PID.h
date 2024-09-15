@@ -1,7 +1,9 @@
 /*
  * PID-Controller
- * 
+ * PID-제어기
+ *
  * The orientation of the motor mount is calculated with two separate PID-Controllers
+ * 모터 마운트의 방향은 두 개의 개별 PID 컨트롤러로 계산 됩니다.
  */
 
 #include <Wire.h>
