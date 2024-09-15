@@ -1,13 +1,13 @@
 /*
- * Absolute Orientation Sensor BNO055
- * https://www.adafruit.com/product/4646
+ * Absolute Orientation Sensor BNO055     BNO055을 IMU 센서로 사용
+ * https://www.adafruit.com/product/4646  
  * 
- * IMU = inertial measurement unit
+ * IMU = inertial measurement unit        IMU = 관성 측정 장치
  * 
- * Outputs the following data: angular velocity, acceleration and absolute orientation
+ * Outputs the following data: angular velocity, acceleration and absolute orientation      다음 데이터를 출력: 각속도, 가속도, 절대 방향
  */
 
-#include <Adafruit_BNO055.h>
+#include <Adafruit_BNO055.h>      //include는 무엇을 뜻하는가?
 #include <Adafruit_Sensor.h>
 #include <Wire.h>
 #include <Arduino.h>
